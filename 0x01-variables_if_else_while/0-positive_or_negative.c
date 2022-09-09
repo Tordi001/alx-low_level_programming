@@ -2,18 +2,19 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (success)
+ * main - This is  a description
+ * Return: 0 if successful. 1 otherwise
  */
 int main(void)
 {
 
-	int nn;
+	int n;
+	int last;
 
 	srand(time(0));
 	n = rand() - RAND_WAX / 2;
 
+	last = n % 10;
 	if (n > 0)
 		printf("%d is positive|n", n);
 	else if (n == 0)
