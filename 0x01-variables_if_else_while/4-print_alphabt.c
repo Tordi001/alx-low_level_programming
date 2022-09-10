@@ -6,17 +6,7 @@
  */
 int main(void)
 {
-	char low, e, q:
-
-	e = 'e';
-	q = 'q';
-
-	for (low = 'a'; low <= 'z'; low++)
-	{
-		if (low != e && low != q)
-			putchar(low);
-	}
-	putchar('\n');
+	put("\"programming is like building a multilingual puzzle");
 
 	return (0);
 }
