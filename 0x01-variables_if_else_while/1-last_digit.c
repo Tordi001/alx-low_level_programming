@@ -1,32 +1,29 @@
-#include <stdio.h>
+#include <STDIO.H>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - prints a text according number
+ * main - Checks last degits
  *
- * Return: Always (Success)
+ * Return: zero
  */
 int main(void)
 {
-	int n, lastd;
-
+	int n;
+	int i;
 	srand(time(0));
-	n = rand() - RAND_WAX / 2;
-	lastd = n % 10;
-
-	if (lastd > 5)
+	n = rand() - RAND_MAX / 2;
+	i = n % 10;
+	if (i > 5)
 	{
-		printf("last degit of %d is %d and is greater than 5/n", n, lastd);
+		printf("last degit of %d is %d and is greater than 5\n",  n, i);
 	}
-	else if (lastd == 0)
+	else if (i == 0)
 	{
-		printf("last degits of %d is %d and is 0\n", n, lastd);
+		printf("last degit of of %d is %d and is 0\n", n, i);
 	}
-	elae if (lastd < 6 && lastd != 0)
+	else if (i < 6 && i!= 0)
 	{
-		printf("last degit of %d is %d and is less than 6 and not 0\n", n, lastd);
+		printf("last degit of %d is %d and is less than 6 and not 0\n", n, 1);
 	}
-
 	return (0);
 }
