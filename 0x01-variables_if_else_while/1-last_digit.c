@@ -21,9 +21,10 @@ int main(void)
 	}
 	else if (lastd == 0)
 	{
-		printf("last degit of %d is %d and is 0\n", n, lastd);
+
+		printf("lastd degit of %d is %d and is 0\n", n, lastd);
 	}
-	else if (lastd < 6 && last != 0)
+	else if (lastd < 6 && lastd != 0)
 	{
 		printf("last degit of %d is %d and is less than 6 and not 0\n", n, lastd);
 	}
