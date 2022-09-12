@@ -9,15 +9,17 @@
  */
 int main(void)
 {
-	int i;
-	for (i = 97; i < 123, i++);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (i != 101 && i != 113)
+		if (c != 'e' && c != 'q')
 		{
-			putchar(i);
+			putchar(c);
 		}
 	}
-	putchar("\n");
 
-	return (0);
+	putchar('\n');
+
+	return(0);
 }
