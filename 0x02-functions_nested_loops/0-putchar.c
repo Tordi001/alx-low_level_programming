@@ -5,6 +5,7 @@
  *
  * Retun: Always 0
  */
+int main(void)
 {
 	_putchar('H');
 	_putchar('O');
