@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Prints "HOLberton" followed by a new line.
+ * main - Prints "HOlberton" followed by a new line.
  *
  * Retun: Always 0
  */
@@ -9,7 +9,7 @@ int main(void)
 {
 	_putchar('H');
 	_putchar('O');
-	_putchar('L');
+	_putchar('l');
 	_putchar('b');
 	_putchar('e');
 	_putchar('r');
