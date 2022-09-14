@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main - Prints "holberton" followed by a new line.
  *
  * Retun: Always 0
  */
