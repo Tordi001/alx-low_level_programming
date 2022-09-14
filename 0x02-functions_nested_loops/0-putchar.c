@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * main - Prints "_putchar" followed by a new line.
+ * main - Prints _putchar followed by a new line.
  *
- * Retun: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
