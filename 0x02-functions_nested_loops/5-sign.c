@@ -6,7 +6,7 @@
  *
  * Return: 1 for positive num, -1 gor negative num or zero for anything else
  */
-int print_sign(int c)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
