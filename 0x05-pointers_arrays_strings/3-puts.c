@@ -6,7 +6,7 @@
  *
  * Return: void
  */
-void -puts(char *str)
+void _puts(char *str)
 {
 	for (; *str != '\n'; str++)
 	{
