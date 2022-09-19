@@ -7,7 +7,7 @@
  * @b: Another integer to swap
  *
  * Return: void
- * */ 
+ */ 
 void swap_int(int *a, int *b)
 {
 	int aux;
