@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _strncat - cncatenate two strings but add inputted number of bytes
- * @dest: string to be appended upon
- * @src: string to be completed at end of dest
- * @n: integer parameter to compare index to
- * Return: returns new concatenated strings
+ * _strncat - cncatenate the string pointer to by @src to
+ * the end of the string pointed to by @dest
+ * @dest: string to be appended
+ * @src: string to be concatenated upon
+ * Return: returns pointer to @dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src)
 {
 
 	int index = 0, dest_len = 0;
