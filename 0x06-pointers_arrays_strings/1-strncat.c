@@ -4,6 +4,7 @@
  * the end of the string pointed to by @dest
  * @dest: string to be appended
  * @src: string to be concatenated upon
+ * @n: integer n to be decleared
  * Return: returns pointer to @dest
  */
 
