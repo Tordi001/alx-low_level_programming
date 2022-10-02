@@ -2,8 +2,9 @@
 
 /**
   * _isupper - Check if a letter is upper
-  * @x: The number to be checked
+  * @c: The number to be checked
   *
+  * description: this is a program that prints _isupper
   * Return: 1 for upper letter or 0 for any else
   */
 int _isupper(int c)
@@ -12,6 +13,8 @@ int _isupper(int c)
 	{
 		return (1);
 	}
+	else
+	{
 
 	return (0);
 }
